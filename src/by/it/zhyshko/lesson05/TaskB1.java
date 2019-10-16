@@ -10,6 +10,22 @@ package by.it.zhyshko.lesson05;
 */
 
 
+import java.util.ArrayList;
+
 public class TaskB1 {
+    public static void main(String[] args) {
+        ArrayList<String> list= new ArrayList<>();
+        list.add("Первая строка");
+        list.add("Вторая строка");
+        list.add("Третья строка");
+        list.add("Четвёртая строка");
+        list.add("Пятая строка");
+        System.out.println(list.size());
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i));
+        }
+
+
+    }
 
 }

@@ -24,15 +24,15 @@ END
 */
 public class TaskA2 {
     public static void main(String[] args) {
-        ArrayList<String> list = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
-        for(;;){
-            String str = sc.next();
-            if (str.equals("END"))
+        ArrayList<String> array = new ArrayList<>();
+        for (; ; ) {
+            String value = sc.next();
+            if (value.equals("END"))
                 break;
-            list.add(str);
+            array.add(value);
         }
-    System.out.println(list);}
-
+        System.out.println(array);
+    }
 
 }

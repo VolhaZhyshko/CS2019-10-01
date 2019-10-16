@@ -13,6 +13,25 @@ package by.it.zhyshko.lesson05;
 0 9
 */
 
+import java.util.Scanner;
+
 public class TaskA3 {
+    public static void main(String[] args) {
+        int[] mas = new int [10];
+        Scanner sc = new Scanner(System.in);
+        int min, max;
+        min = max = mas [0];
+        for (int i = 0; i < mas.length; i++) {
+            mas [i] = sc.nextInt();
+                if (mas[i] < min) min = mas [i];
+                if (mas[i] > max) max = mas[i];
+        }
+        System.out.println(min + " " + max);
+        {
+
+        }
+
+
+    }
 
 }

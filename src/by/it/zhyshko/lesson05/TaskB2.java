@@ -20,6 +20,30 @@ b=[11, 22, 33, 44, 55, 66, 77, 88, 99, 0]
 
 */
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class TaskB2 {
 
+    public static class Solution {
+        public static void main(String[] args) throws Exception {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+            int[] list = new int[20];
+            for (int i = 0; i < list.length; i++) {
+                list[i] = Integer.parseInt(reader.readLine());//напишите тут ваш код
+            }
+            int[] arr1 = new int[10];
+            for (int i = 0; i < arr1.length; i++) {
+                arr1[i] = list[i];
+            }
+            int[] arr2 = new int[10];
+            for (int i = 0; i < arr2.length; i++) {
+                arr2[i] = list[i];
+            }
+        }
+    }
 }
+
